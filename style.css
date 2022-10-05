@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  background: pink;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  width: 40%;
+  background: white;
+  border-radius: 20px;
+  height: 600px;
+}
+
+header {
+  height: 70px;
+  background: #203774;
+  color: white;
+  padding: 20px;
+  font-size: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header span {
+  font-size: 25px;
+}
+
+.container-calendario {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.calendario-fecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.seccion-contenedores {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contenedores {
+  width: 50%;
+  height: 170px;
+  background: #203774;
+  display: flex;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-top,
+.container-mid,
+.container-bot {
+  display: flex;
+}
+
+.container-top {
+  gap: 7rem;
+}
+
+.container-mid {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.container-mid li {
+  list-style: disc;
+  margin-left: 8px;
+}
+
+.button {
+  color: black;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  width: 100px;
+}
+
+.informacion-doctor {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.informacion-doctor img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
